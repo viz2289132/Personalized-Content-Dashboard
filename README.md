@@ -1,3 +1,4 @@
+
 # 📰 NewsPulse - Personalized Content Dashboard
 
 A modern, responsive content aggregation dashboard built with **Next.js (App Router)**, **TypeScript**, and **Tailwind CSS**. This app fetches real-time **news**, **movie recommendations**, and **trending content**, allowing users to personalize their feed, save favorites, and log in with GitHub.
@@ -6,9 +7,9 @@ A modern, responsive content aggregation dashboard built with **Next.js (App Rou
 
 ## 🔗 Live Demo
 
-> 🚀 [Visit Live Site](personalized-content-dashboard-coral.vercel.app )
+> 🚀 [Visit Live Site](https://personalized-content-dashboard-coral.vercel.app/)
 
-
+> 📽️ Watch the [Demo Video](#) (optional)
 
 ---
 
@@ -52,6 +53,61 @@ GITHUB_SECRET=your_github_client_secret
 
 NEXTAUTH_SECRET=your_nextauth_secret
 NEXTAUTH_URL=http://localhost:3000
+```
 
+---
 
+## 📦 Getting Started (Local Setup)
 
+Clone the repository:
+
+```bash
+git clone https://github.com/your-username/personalized-dashboard.git
+cd personalized-dashboard
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+---
+
+## ⚙️ Folder Structure
+
+```
+/src
+  /app
+    /api
+    /favourites
+    /trending
+    /recommendations
+  /components
+  /context
+  /hooks
+```
+
+---
+
+## 📤 Deployment
+
+Deployed on **[Vercel](https://vercel.com)** with all environment variables added in the dashboard.
+
+1. Connect the GitHub repo
+2. Add environment variables
+3. Deploy!
+
+---
+
+## 📄 License
+
+MIT © 2025 [Vishal](https://github.com/your-username)
+
+---
