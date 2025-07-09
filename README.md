@@ -6,7 +6,7 @@ A modern, responsive content aggregation dashboard built with **Next.js (App Rou
 
 ## 🔗 Live Demo
 
-> 🚀 [Visit Live Site]( https://your-vercel-url.vercel.app](https://personalized-content-dashboard-r484-cq3zjuyiv.vercel.app/ )
+> 🚀 [Visit Live Site](personalized-content-dashboard-coral.vercel.app )
 
 
 
