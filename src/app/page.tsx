@@ -1,7 +1,10 @@
+// ✅ File: src/app/page.tsx
+'use client'
+
 import Header from '@/components/Header'
 import Sidebar from '@/components/Sidebar'
 import Feed from '@/components/Feed'
-import Recommendations from '@/components/Recommendations'
+// import Recommendations from '@/components/Recommendations'
 
 export default function Home() {
   return (
