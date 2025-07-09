@@ -2,19 +2,18 @@
 
 import { usePreferences } from '../context/PreferencesContext'
 
-const Sidebar = () => {
+const PreferencesSelector = () => {
   const { categories, toggleCategory } = usePreferences()
   const allCategories = ['Technology', 'Sports', 'Finance', 'Movies']
 
   return (
-    <aside className="w-64 hidden md:block min-h-screen bg-gray-50 text-black dark:bg-gray-900 dark:text-white border-r border-gray-200 dark:border-gray-700 p-6">
-      <h2 className="font-semibold text-xl mb-6">🎯 Preferences</h2>
-
-      <div className="space-y-3">
+    <div className="bg-white dark:bg-gray-800 p-4 rounded-md shadow-sm border border-gray-200 dark:border-gray-700 mb-4">
+      <h2 className="text-lg font-semibold mb-3">🎯 Select Preferences</h2>
+      <div className="flex flex-wrap gap-3">
         {allCategories.map((cat) => (
           <label
             key={cat}
-            className="flex items-center space-x-2 cursor-pointer"
+            className="flex items-center space-x-2 text-sm cursor-pointer"
           >
             <input
               type="checkbox"
@@ -26,8 +25,8 @@ const Sidebar = () => {
           </label>
         ))}
       </div>
-    </aside>
+    </div>
   )
 }
 
-export default Sidebar
+export default PreferencesSelector

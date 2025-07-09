@@ -5,6 +5,7 @@ import { Reorder } from 'framer-motion'
 import { usePreferences } from '../context/PreferencesContext'
 import { useSearch } from '../context/SearchContext'
 import ContentCard from './ContentCard'
+import PreferencesSelector from './PreferencesSelector' // ✅ Import the new component
 
 type Article = {
   title: string
@@ -62,6 +63,11 @@ const Feed = () => {
 
   return (
     <section className="flex-1 p-6 bg-white dark:bg-gray-950 text-black dark:text-white">
+      {/* ✅ Preferences on mobile view */}
+      <div className="md:hidden mb-4">
+        <PreferencesSelector />
+      </div>
+
       <h1 className="text-3xl font-bold mb-6">📰 Your Personalized Feed</h1>
 
       {loading && <p className="text-blue-500 animate-pulse">Loading...</p>}
