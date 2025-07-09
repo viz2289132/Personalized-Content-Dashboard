@@ -53,16 +53,5 @@ GITHUB_SECRET=your_github_client_secret
 NEXTAUTH_SECRET=your_nextauth_secret
 NEXTAUTH_URL=http://localhost:3000
 
-📦 Getting Started (Local Setup)
 
-Clone the repository:
-
-git clone https://github.com/your-username/personalized-dashboard.git
-cd personalized-dashboard
-
-Install dependencies:
-npm install
-
-Start the development server:
-npm run dev
 
