@@ -68,7 +68,8 @@ const Feed = () => {
         <PreferencesSelector />
       </div>
 
-      <h1 className="text-3xl font-bold mb-6">📰 Your Personalized Feed</h1>
+      <h1 className="text-3xl font-bold mb-6">📚 Your Personalized Feed</h1>
+
 
       {loading && <p className="text-blue-500 animate-pulse">Loading...</p>}
       {error && <p className="text-red-500">{error}</p>}

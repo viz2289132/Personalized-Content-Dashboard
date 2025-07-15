@@ -1,7 +1,7 @@
 'use client'
 
 import React, { useEffect, useState } from 'react'
-import Header from '@/components/Header'
+
 import Sidebar from '@/components/Sidebar'
 import ContentCard from '@/components/ContentCard'
 import { useSearch } from '@/context/SearchContext'
@@ -46,7 +46,7 @@ export default function TrendingPage() {
 
   return (
     <div className="min-h-screen flex flex-col">
-      <Header />
+
       <div className="flex flex-1">
         <Sidebar />
         <main className="flex-1 p-6 bg-white dark:bg-gray-950 text-black dark:text-white overflow-y-auto">
